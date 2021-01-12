@@ -1,12 +1,8 @@
 NOME TABELLA: Shop Main View
-TIPO TABELLA:.....(caselle quadriangolari a corrimento orizzontale per ogni categoria i full view)
-Item ID:
-Marca:
-Modello:
-Cambio:
-caburante:
-Anno:
-Km:
-Prezzo:
+Item ID: INT PRIMARY_KEY (AUTO_INCREMENT, UNIQUE)
+Marca VARCHAR(50) NOTNULL
+caburante: TINYINT NULL
+Km: MEDIUMINT DEFAULT(0)
+Prezzo: INT N0TNULL
 
 
